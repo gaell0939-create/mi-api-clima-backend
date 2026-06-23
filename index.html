@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="search-box">
+            <input type="text" id="search-input" placeholder="Buscar ciudad... (ej. Madrid, Tokyo)">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </header>
+
+        <main class="weather-content" id="weather-content">
+            <p class="welcome-msg">Ingresa una ciudad para ver el clima en tiempo real.</p>
+        </main>
+
+        <section id="favoritos-container" style="margin-top: 30px; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 20px;">
+            </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
